@@ -1,0 +1,16 @@
+.form {
+    background-position: right;
+    width: 50vw;
+    padding: 1rem;
+}
+
+img {
+    width: 50vw;
+    height: 100vh;
+    overflow: visible;
+}
+
+body {
+    display: flex;
+
+}
