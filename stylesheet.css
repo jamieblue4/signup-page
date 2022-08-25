@@ -10,11 +10,43 @@ img {
     overflow: visible;
 }
 
-body {
-    display: flex;
-    
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-form {
-    
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.user-signup form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding: 1rem;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input {
+    font-size: 20px;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border: solid;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    box-shadow: 2rem black;
+}
+
+button {
+    font-size: 18px;
 }
