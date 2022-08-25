@@ -4,9 +4,26 @@
     padding: 1rem;
 }
 
+.background {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h1{
+    position: absolute;
+    top: 50vh;
+    bottom: 50vw;
+    transform: translate(70%, 50%);
+    font-size: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px black;
+}
+
 img {
     width: 50vw;
-    height: 100vh;
+    height: auto;
     overflow: visible;
 }
 
@@ -20,6 +37,7 @@ h2 {
 
 body {
     display: flex;
+    height: auto;
 }
 
 .user-signup form {
@@ -38,11 +56,7 @@ input {
 }
 
 a {
-    list-style: none;
-    text-decoration: none;
     color: black;
-    border: solid;
-    border-radius: 0.25rem;
     padding: 0.25rem;
     box-shadow: 2rem black;
 }
@@ -50,3 +64,21 @@ a {
 button {
     font-size: 18px;
 }
+
+#create-account {
+    margin-right: 0.5rem;
+    color: black;
+    font-weight: 4px;
+    text-shadow: 3px;
+    background: #46E530;
+    border-radius: 8px;
+}
+
+#reset {
+    color: black;
+    font-weight: 4px;
+    text-shadow: 3px;
+    background: #46E530;
+    border-radius: 8px;
+}
+
